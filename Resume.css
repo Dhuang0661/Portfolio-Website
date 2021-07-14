@@ -1,0 +1,258 @@
+body {
+    background-color: rgb(230, 227, 227);
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+    font-family: Parisienne;
+    font-size: 3vmax;
+    color: black;
+}
+
+.tabs:hover {
+    color: goldenrod;
+}
+
+a {
+    margin: 30px;
+    font-family: IBM Plex Sans;
+    text-decoration: none;
+    color: grey;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(6, 201, 255, 0.534);
+    padding: 0px 5%;
+    z-index: 1;
+}
+
+.current {
+    color: black;
+    font-weight: bold;
+}
+
+.banner-image {
+    max-width: 100%;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 1000%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: -10px;
+    right: 300px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px white;
+    z-index: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: auto auto;
+    position: relative;
+    font-family: Helvetica;
+    color: rgba(59, 59, 59, 0.74);
+}
+
+.sweContainer {
+    background: white;
+    border-radius: 20px;
+    width: 80%;
+    height: 480px;
+    margin: 50px auto;
+    box-shadow: 3px 0px 20px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sweContainer img {
+    max-width: 30%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgba(6, 201, 255, 0.534);
+}
+
+.sweInfo {
+    max-width: 50%;
+}
+
+.sweInfo p:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.sweInfo p:nth-child(2),
+.sweInfo p:nth-child(4),
+.sweInfo p:nth-child(6),
+.sweInfo p:nth-child(8) {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.engineeringContainer {
+    background: white;
+    border-radius: 20px;
+    width: 80%;
+    height: 400px;
+    margin: 50px auto;
+    box-shadow: 3px 0px 20px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    word-wrap: break-word;
+}
+
+.engineeringContainer img {
+    max-width: 260px;
+    max-height: 260px;
+}
+
+.engineeringInfo {
+    width: 50%
+}
+
+.engineeringInfo p:nth-child(1) {
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+
+.engineeringInfo p:nth-child(2),
+.engineeringInfo p:nth-child(4),
+.engineeringInfo p:nth-child(6) {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.comprehensiveContainer {
+    background: white;
+    border-radius: 20px;
+    width: 80%;
+    height: 300px;
+    margin: 50px auto;
+    box-shadow: 3px 0px 20px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    word-wrap: break-word;
+}
+
+.comprehensiveContainer img {
+    max-width: 20%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgba(6, 201, 255, 0.534);
+}
+
+.comprehensiveInfo {
+    width: 50%
+}
+
+.comprehensiveInfo p:nth-child(1) {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.container button {
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    border: 3px solid;
+    border-color: rgba(59, 59, 59, 0.74);
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(59, 59, 59, 0.74);
+    background: white;
+}
+
+.container button:hover {
+    border: none;
+    background: rgba(59, 59, 59, 0.74);
+    color: white;
+}
+
+@media only screen and (max-width:480px) {
+    h1 {
+        display: none;
+    }
+    .sweContainer {
+        width: 90%;
+        height: 700px
+    }
+    .sweInfo p:nth-child(1) {
+        margin-left: -85px;
+    }
+    .sweInfo a {
+        margin-left: -10px;
+    }
+    .engineeringContainer {
+        width: 90%;
+        height: 900px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .engineeringContainer img {
+        width: 30%;
+        height: 10%;
+    }
+    .engineeringInfo {
+        display: flex;
+        flex-wrap: wrap;
+        width: 3
+    }
+    .engineeringInfo p:nth-child(1) {
+        position: absolute;
+        top: 40%;
+        left: 20px;
+        font-size: 20px
+    }
+    .engineeringInfo a {
+        margin-left: -10px;
+    }
+    .comprehensiveContainer {
+        width: 90%;
+        height: 400px
+    }
+    .comprehensiveInfo p:nth-child(1) {
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    .comprehensiveInfo a {
+        margin-left: -10px;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    h1 {
+        font-size: 80px;
+        position: absolute;
+        left: 280px;
+        top: 20px
+    }
+}
