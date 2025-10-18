@@ -1,0 +1,363 @@
+        body {
+            background-color: white;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        .logo {
+            font-family: Parisienne;
+            font-size: 200%;
+            color: black;
+        }
+        
+        .tabs:hover {
+            color: goldenrod;
+        }
+        
+        a {
+            margin: 30px;
+            font-family: IBM Plex Sans;
+            text-decoration: none;
+            color: grey;
+        }
+        
+        section {
+            width: 100%;
+            height: 100vh;
+            background-image: url(image/bg.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 65px;
+            background-color: white;
+            box-shadow: 2px 2px 12px rgba(6, 201, 255, 0.534);
+            padding: 0px 5%;
+        }
+        
+        .ad {
+            position: absolute;
+            left: 15%;
+            top: 25%;
+        }
+        
+        .ad a {
+            margin: 0px;
+        }
+        
+        .ad p:nth-child(1) {
+            font-family: calibri;
+            font-weight: bold;
+            color: rgba(59, 59, 59, 0.74);
+            font-size: 25px;
+            margin: 10px 0px 0px 0px;
+        }
+        
+        .ad p:nth-child(2) {
+            font-family: calibri;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            font-size: 55px;
+            margin: 10px 0px 0px 20px
+        }
+        
+        .ad p:nth-child(3) {
+            font-family: calibri;
+            font-weight: bold;
+            color: rgba(59, 59, 59, 0.74);
+            font-size: 25px;
+            margin: 10px 0px 0px 0px;
+        }
+        
+        .ad button {
+            font-family: calibri;
+            font-weight: 900;
+            font-size: 13px;
+            width: 110px;
+            height: 38px;
+            border-radius: 10px;
+            margin: 30px 10px 0px 15px;
+            border: 3px solid;
+        }
+        
+        .imgMe {
+            height: 450px;
+            position: relative;
+            left: 85%;
+            transform: translateX(-85%);
+        }
+        
+        #LearnMore {
+            border: 3px solid;
+            color: rgba(59, 59, 59, 0.74);
+            background-color: transparent;
+        }
+        
+        #ViewResumes {
+            color: white;
+            background-color: rgba(59, 59, 59, 0.74);
+            border: none;
+        }
+        
+        .current {
+            color: black;
+            font-weight: bold;
+        }
+        
+        #LearnMore:hover {
+            color: white;
+            background-color: rgba(59, 59, 59, 0.74);
+        }
+        
+        #ViewResumes:hover {
+            border: 3px solid;
+            color: rgba(59, 59, 59, 0.74);
+            background-color: transparent;
+        }
+        
+        .aboutBox {
+            width: 80%;
+            height: 350px;
+            border-radius: 20px;
+            background: white;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+            display: flex;
+            margin: -7% auto 20px auto;
+            position: relative;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        .aboutBox img {
+            height: 224px;
+            border-color: black;
+            border: 5px 5px 5px black;
+            box-shadow: 0px 0px 3px 5px rgb(0, 0, 0);
+        }
+        
+        .about {
+            font-family: calibri;
+            width: 500px;
+        }
+        
+        .about p:nth-child(1) {
+            font-size: 30px;
+            font-weight: 900;
+            color: black;
+            margin: 0px 0px 5px 0px;
+        }
+        
+        .about p:nth-child(2) {
+            font-size: 15px;
+            font-weight: 600;
+            color: rgba(37, 32, 32, 0.664);
+            margin: 0px 0px 5px 0px;
+        }
+        
+        .about p:nth-child(3) {
+            font-size: 15px;
+            color: rgba(37, 32, 32, 0.664);
+        }
+        
+        .about p:nth-child(4) {
+            font-size: 15px;
+            color: rgba(37, 32, 32, 0.664);
+        }
+        
+        .about button {
+            color: white;
+            background-color: black;
+            border: none;
+            width: 111px;
+            height: 36px;
+            margin: 5px 0px 0px 0px;
+        }
+        
+        .about button:hover {
+            color: black;
+            background: white;
+            border: 3px solid black;
+        }
+        
+        .EducationContainer {
+            width: 80%;
+            height: 350px;
+            background-color: white;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+            position: relative;
+            margin: 7% auto 5% auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-family: Helvetica;
+            font-weight: 500;
+            color: rgba(75, 68, 68, 0.589);
+        }
+        
+        .EducationContainer img {
+            max-width: 25%;
+            max-height: 25%;
+        }
+        
+        .EducationContainer p:nth-child(1) {
+            font-weight: bold;
+            font-size: 25px;
+            color: rgba(36, 33, 33, 0.815);
+        }
+        
+        .EducationContainer p:nth-child(2),
+        .EducationContainer p:nth-child(4),
+        .EducationContainer p:nth-child(6) {
+            font-weight: bold;
+            color: rgba(36, 33, 33, 0.747);
+        }
+        
+        .ExperienceTitle {
+            font-size: 50px;
+            font-weight: bold;
+            font-family: Helvetica;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        
+        .ExperienceContainer {
+            width: 80%;
+            height: 800px;
+            background-color: white;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+            position: relative;
+            margin: 3% auto 150px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            font-family: Helvetica;
+            font-weight: 500;
+            color: rgba(75, 68, 68, 0.589);
+        }
+        
+        .IEEEContainer {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: auto auto;
+        }
+        
+        .IEEEContainer img {
+            max-height: 35%;
+            max-width: 30%;
+        }
+        
+        .IEEE {
+            max-width: 40%;
+        }
+        
+        .FedExContainer {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: auto auto;
+        }
+        
+        .FedExContainer img {
+            max-width: 30%;
+            max-height: 60%;
+        }
+        
+        .FedEx {
+            width: 40%;
+        }
+        
+        .MatteiContainer {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: auto auto;
+        }
+        
+        .MatteiContainer img {
+            max-width: 30%;
+            max-height: 60%;
+        }
+        
+        .Mattei {
+            width: 40%;
+        }
+        
+        .IEEE p:nth-child(1),
+        .FedEx p:nth-child(1),
+        .Mattei p:nth-child(1) {
+            font-weight: bold;
+            font-size: 25px;
+            color: rgba(36, 33, 33, 0.815);
+        }
+        
+        .IEEE p:nth-child(2),
+        .IEEE p:nth-child(4),
+        .FedEx p:nth-child(2),
+        .FedEx p:nth-child(4),
+        .Mattei p:nth-child(2),
+        .Mattei p:nth-child(4) {
+            font-weight: bold;
+            color: rgba(36, 33, 33, 0.747);
+        }
+        
+        @media only screen and (max-width:480px) {
+            * {
+                box-sizing: border-box;
+            }
+            .imgMe {
+                display: none;
+            }
+            .ad {
+                background-image: none;
+                background-color: white;
+            }
+            .aboutBox {
+                display: flex;
+                flex-wrap: wrap;
+                margin: auto auto;
+                width: 90%;
+                height: 100%;
+            }
+            .ExperienceContainer {
+                height: 100%;
+            }
+            .logo {
+                display: none;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+            nav {
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+        
+        @media only screen and (max-width:768px) {
+            section {
+                background-image: none;
+                background-color: white;
+            }
+            .imgMe {
+                display: none;
+            }
+        }
