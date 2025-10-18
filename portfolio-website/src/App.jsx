@@ -48,4 +48,8 @@ function App() {
   );
 }
 
+// For inspo:
+// https://zanjeel-portfolio.netlify.app/
+// https://sumanthsamala.com/
+
 export default App;
