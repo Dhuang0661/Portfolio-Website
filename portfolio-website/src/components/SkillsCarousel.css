@@ -29,13 +29,7 @@
   height: 50px;
   margin-bottom: 0.5rem;
   padding: 0 1rem;
-  fill: #1DA1F2
 }
-
-.carousel-item img {
-  fill: #1DA1F2
-}
-
 .carousel-item span {
   font-size: 1.5rem;
 }

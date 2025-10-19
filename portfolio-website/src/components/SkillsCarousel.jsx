@@ -1,12 +1,13 @@
 import "./SkillsCarousel.css";
-import { ReactComponent as ReactLogo } from "../assets/react.svg";
-import { ReactComponent as TerraformLogo } from "../assets/terraform.svg";
-import { ReactComponent as NodeLogo } from "../assets/nodedotjs.svg";
-import { ReactComponent as PythonLogo } from "../assets/python.svg";
-import { ReactComponent as HTMLLogo } from "../assets/html5.svg";
-import { ReactComponent as JSLogo } from "../assets/javascript.svg";
-import { ReactComponent as GoogleCloudLogo } from "../assets/googlecloud.svg";
-import { ReactComponent as ArduinoLogo } from "../assets/arduino.svg";
+import ReactLogo from "../assets/react.svg";
+import TerraformLogo from "../assets/terraform.svg";
+import NodeLogo from "../assets/nodedotjs.svg";
+import PythonLogo from "../assets/python.svg";
+import HTMLLogo from "../assets/html5.svg";
+import JSLogo from "../assets/javascript.svg";
+import GoogleCloudLogo from "../assets/googlecloud.svg";
+import ArduinoLogo from "../assets/arduino.svg";
+import cssLogo from "../assets/css3.png";
 
 export default function SkillsCarousel() {
   const skills = [
