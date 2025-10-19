@@ -4,6 +4,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 import ScrollToTop from "./components/scrollToTop.jsx";
+import Intro from "./components/Intro.jsx";
+import SkillsCarousel from "./components/SkillsCarousel.jsx";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -11,7 +13,8 @@ function App() {
   return (
     <>
       <Navbar />
-
+      <Intro />
+      <SkillsCarousel/>
       <section
         id="about"
         style={{ height: "100vh", padding: "2rem"}}
